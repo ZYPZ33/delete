@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 # This is a custom delete script that relies on:
 # - coreutils - specifically the rm and shred commands

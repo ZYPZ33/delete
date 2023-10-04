@@ -1,0 +1,2 @@
+# delete
+Verbose deletion command

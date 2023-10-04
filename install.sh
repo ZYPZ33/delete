@@ -2,4 +2,4 @@
 install_directory='/usr/local/bin'
 executable_name='delete'
 
-install delete ${install_directory}/${executable_name}
+install delete.sh ${install_directory}/${executable_name}

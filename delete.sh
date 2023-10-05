@@ -48,7 +48,7 @@ for item in "$@"
 	elif [ "${response}" = "s" ] || [ "${response}" = "S" ]
 		then if [ -f "${item}" ]
 			then shred -xvfu ${item} && echo "${item} shredded"
-		else echo "${item} is a directory"
+		else echo "${item} is a directory" 1>&2
 	fi
 	else echo "${item} unaltered."
 	fi
